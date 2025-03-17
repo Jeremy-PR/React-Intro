@@ -1,11 +1,19 @@
-import './App.css'
+import "./App.css";
+import Hello from "./components/Hello/Hello";
+import Time from "./components/Time";
+
 
 function App() {
-  
+
+
+
 
   return (
-  <h1>hello</h1>  
-  )
+    <main>
+      <Hello firstName="Lucien" lastName="Metomo" />    
+      <Time />
+    </main>
+  );
 }
 
-export default App
+export default App;
